@@ -29,5 +29,51 @@ This project analyzes sales performance across Primary and Secondary regions to 
 - *Region- South* is the lowest- performing region, with the lowest total sales, fewest customers, and fewest orders.
 
 1. **Order Efficiency**: East and Central have higher avg. sales per order, indicating stronger purchasing power compared to West and South.
-2. **Product diversity: West leads in number of products sold, suggesting broader product adoption or better inventory distribution.
-3. **Growth opportunities**: Improving sales in South could significantly riase total performance, as it lags behind in all major KPIs.
+2. **Product Diversity**: West leads in number of products sold, suggesting broader product adoption or better inventory distribution.
+3. **Growth Opportunities**: Improving sales in South could significantly riase total performance, as it lags behind in all major KPIs.
+
+## Visualizations
+1. **Monthly Sales per Sub-Category (Line Graph)**
+   - shows month-over-month sales performance
+   - helps identify seasonality and demand patterns
+   - enable comparison of subcategories across time
+
+3. **Sales by Sub-Category (Bar Chart)**
+   - highlights top-performing sub-categories
+   - useful for identifying product focus areas
+   - shows contrast between primary vs. secondary regions
+
+### Sub-Category Performance Summary
+
+| Region       | 🏆 Top 3 Sub-Categories (Highest Sales)                                | ⚠️ Bottom 3 Sub-Categories (Lowest Sales)              |
+|-------------|-------------------------------------------------------------------------|---------------------------------------------------------|
+| **Central** | 1. Chairs ($85,231) <br> 2. Phones ($72,403) <br> 3. Binders ($56,923) | 1. Fasteners ($778) <br> 2. Labels ($2,451) <br> 3. Envelops ($4,637) |
+| **East**    | 1. Phones ($100,615) <br> 2. Chairs ($96,261) <br> 3. Storage ($71,613) | 1. Fasteners ($820) <br> 2. Labels ($2,603)<br> 3. Envelopes ($4,376)|
+| **South**   | 1. Phones ($58,304) <br> 2. Machines ($53,891) <br> 3. Chairs ($45,176) | 1. Fasteners ($503) <br> 2. Labels ($2,353) <br> 3. Envelopes ($3,346) |
+| **West**    | 1. Chairs ($101,781) <br> 2. Phones ($98,684) <br> 3. Tables ($84,755) | 1. Fasteners ($923) <br> 2. Envelopes ($4,118) <br> 3. Labels ($5,079) |
+
+Overall, *Chairs* and *Phones* consistently dominate sales across all regions, often taking the #1 and #2 positions. The **West region** leads the strongest, with *Chairs* and *Phones* both exceeding $95K+ in total sales.
+Similarly, *Fasteners* are the lowest-performing category in every region, usually generating less than $1,000 in sales. Other categories like *Labels*, *Envelopes*, *Art*, and *Supplies* also cluster at the bottom consistently, suggesting low demand or small-ticket consumables.
+
+In contrast, mid-range categories such as *Tables*, *Machines*, *Storage*, and *Binders* show moderate but stable performance, especially in the **West** and **South** regions.
+
+**Strange Observation: Appliances ($0 min sales)**
+
+Reported:
+
+- Total sales: $0
+- Min sale: $2,405
+- Max sale: $33,956
+
+💡 What this likely means
+
+This usually indicates a data-quality issue, such as:
+
+- Appliances exist in the dataset but their sales values were filtered out or mis-coded.
+- Their transaction amounts exist, but the total sales measure is blank or incorrectly aggregated.
+- There may be returns or negative adjustments offsetting the full sales amount.
+
+## Tools & Technologies
+  - Tableau for visualization
+  - Excel/CSV as source data
+  - GitHub for version control 
