@@ -33,17 +33,11 @@ This project analyzes sales performance across Primary and Secondary regions to 
 3. **Growth Opportunities**: Improving sales in South could significantly riase total performance, as it lags behind in all major KPIs.
 
 ## Visualizations
-1. **Monthly Sales per Sub-Category (Line Graph)**
-   - shows month-over-month sales performance
-   - helps identify seasonality and demand patterns
-   - enable comparison of subcategories across time
 
-3. **Sales by Sub-Category (Bar Chart)**
+### **1. Sales by Sub-Category (Bar Chart)**
    - highlights top-performing sub-categories
    - useful for identifying product focus areas
    - shows contrast between primary vs. secondary regions
-
-### Sub-Category Performance Summary
 
 | Region       | 🏆 Top 3 Sub-Categories (Highest Sales)                                | ⚠️ Bottom 3 Sub-Categories (Lowest Sales)              |
 |-------------|-------------------------------------------------------------------------|---------------------------------------------------------|
@@ -61,17 +55,81 @@ In contrast, mid-range categories such as *Tables*, *Machines*, *Storage*, and *
 
 Reported:
 
-- Total sales: $0
-- Min sale: $2,405
-- Max sale: $33,956
-
-💡 What this likely means
+- Min sales: $0
+- Max sale: $2,405
+- Total sales: $33,956
 
 This usually indicates a data-quality issue, such as:
-
 - Appliances exist in the dataset but their sales values were filtered out or mis-coded.
 - Their transaction amounts exist, but the total sales measure is blank or incorrectly aggregated.
 - There may be returns or negative adjustments offsetting the full sales amount.
+
+### **2. Monthly Sales per Sub-Category (Line Graph)**
+   -    shows month-over-month sales performance
+   -    helps identify seasonality and demand patterns
+   -    enable comparison of subcategories across time
+
+**West Region**
+
+| Rank | Month & Year   | Sub-Category | Total Sales |
+| ---- | -------------- | ------------ | ----------- |
+| 1    | **March 2017** | Copiers      | **$14,960**  |
+| 2    | December 2016  | Tables       | $9,783       |
+| 3    | July 2014      | Supplies     | $8,244       |
+| 4    | November 2017  | Tables       | $7,368       |
+| 5    | April 2017     | Machines     | $7,350       |
+| 6    | November 2014  | Phones       | $7,315       |
+
+**Central Region**
+| Rank | Month & Year     | Sub-Category | Total Sales |
+| ---- | ---------------- | ------------ | ----------- |
+| 1    | **October 2016** | Copiers      | **$17,500**  |
+| 2    | September 2014   | Machines     | $14,300      |
+| 3    | September 2014   | Binders      | $10,261      |
+| 4    | December 2016    | Binders      | $10,194      |
+
+**East Region**
+| Rank | Month & Year      | Sub-Category | Total Sales |
+| ---- | ----------------- | ------------ | ----------- |
+| 1    | **November 2017** | Copiers      | **$11,400**  |
+| 2    | November 2014     | Phones       | $11,248      |
+| 3    | October 2017      | Copiers      | $11,200      |
+| 4    | September 2015    | Bookcases    | $9,724       |
+| 5    | May 2016          | Copiers      | $9,240       |
+
+**South Region**
+| Rank | Month & Year   | Sub-Category | Total Sales |
+| ---- | -------------- | ------------ | ----------- |
+| 1    | **March 2014** | Machines     | **$23,460**  |
+| 2    | November 2017  | Machines     | $8,000       |
+| 3    | March 2015     | Binders      | $6,427       |
+| 4    | October 2017   | Tables       | $6,206       |
+
+**Seasonality Patterns:**
+- **March** -- Highest overall impact
+  March consistently produces major record-breaking spikes, including the singles highest sales month in all regions. 
+- **November** appears repeatedly (West, East, South) likely reflecting pre-year-end business spending.
+  Corporate and government entities often use remaining budgets -> results in solid sales spikes.
+- **September** and *October*, strong but limited in two regions (Central, East), consistently deliver high Copiers and Furniture (Tables) spending, likely tied to Q4 planning.
+- **December** is active, but fewer top peaks compared to November. It still reflects end-of-year purchasing, especially Office Supplies (Tables, Binders).
+- **July**: In this month, only one region (West), one year (2014) shows a notable spike. This is likely a local/one-time seasonal bump - not a strong cross-regional pattern.
+- **April** and **May** spikes seem situational, and not strategic as no multi-region pattern happened.
+
+**Conclusion/ Takeaway for Business Planning:**
+
+Q1 (March)
+
+— Expect the highest volume, especially for Machines and Copiers.
+— Critical time for stock & promotions.
+
+Q4 (October–November)
+
+— Strong multi-region buying behavior.
+— Ideal for pushing office equipment and tech refresh cycles.
+
+Q3 (September)
+
+— Smaller but predictable procurement wave.
 
 ## Tools & Technologies
   - Tableau for visualization
