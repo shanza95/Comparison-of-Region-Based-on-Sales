@@ -24,11 +24,11 @@ This project analyzes sales performance across Primary and Secondary regions to 
 **Findings**
 
 - Based on the KPIs analyzed across regions, the *Region- West* is the top performer overall, leading in total sales, number of orders, number of customers, and product count. 
-- *Region- East* follows closely, showing stron sales and healthy order volume, making it a solid secondary performer.
+- *Region- East* follows closely, showing strong sales and healthy order volume, making it a solid secondary performer.
 - *Region- Central* performs better than *Region- South* in most KPIs, especially in total sales and customer count.
 - *Region- South* is the lowest- performing region, with the lowest total sales, fewest customers, and fewest orders.
 
-1. **Order Efficiency**: East and Central have higher avg. sales per order, indicating stronger purchasing power compared to West and South.
+1. **Order Efficiency**: East and South have higher avg. sales per order, indicating stronger purchasing power compared to West and Central.
 2. **Product Diversity**: West leads in number of products sold, suggesting broader product adoption or better inventory distribution.
 3. **Growth Opportunities**: Improving sales in South could significantly riase total performance, as it lags behind in all major KPIs.
 
