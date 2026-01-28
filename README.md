@@ -165,6 +165,7 @@ Although the South shows higher average sales per order, indicating strong purch
 
 ## Final Verdict:
 **Best Region: West**
+
 **Lowest Performing Region: South**
 
 ## Tools & Technologies
