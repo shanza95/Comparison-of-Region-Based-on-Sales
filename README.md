@@ -117,19 +117,16 @@ This usually indicates a data-quality issue, such as:
 
 **Conclusion/ Takeaway for Business Planning:**
 
-Q1 (March)
+#### Q1 (March)
+- Expect the highest volume, especially for Machines and Copiers.
+- Critical time for stock & promotions.
 
-— Expect the highest volume, especially for Machines and Copiers.
-— Critical time for stock & promotions.
+#### Q4 (October–November)
+- Strong multi-region buying behavior.
+- Ideal for pushing office equipment and tech refresh cycles.
 
-Q4 (October–November)
-
-— Strong multi-region buying behavior.
-— Ideal for pushing office equipment and tech refresh cycles.
-
-Q3 (September)
-
-— Smaller but predictable procurement wave.
+#### Q3 (September)
+- Smaller but predictable procurement wave.
 
 ## Conclusion
 Based on the comprehensive analysis of regional KPIs, sub-category performance, and seasonal sales trends, the West region emerges as the overall best-performing region, while the South region is the lowest-performing.
